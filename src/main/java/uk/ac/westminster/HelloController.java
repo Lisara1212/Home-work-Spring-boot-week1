@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Spring Boot!";
+        return "Hello Spring Boot!";
     }
     @GetMapping("/status")
     public String status() {
